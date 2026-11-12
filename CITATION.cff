@@ -1,0 +1,44 @@
+# Citation File Format — https://citation-file-format.github.io/
+# Validate with: pip install cffconvert && cffconvert --validate
+# The repository holds talk and poster materials; the work to cite is the AMS 2027
+# presentation (preferred-citation). Add a doi once one is minted.
+cff-version: 1.2.0
+message: "If you use this work, please cite the presentation below."
+title: "Mind the Gap talks: scalable deep learning for satellite ocean-color gap filling"
+abstract: "Slides, posters, abstracts and figure scripts for talks on the Mind the Gap ocean-color gap-filling workflow."
+type: software
+authors: &authors
+  - family-names: Holmes
+    given-names: Elizabeth Eli
+    email: eli.holmes@noaa.gov
+    affiliation: "NOAA, Seattle, WA, USA; School of Fisheries and Aquatic Sciences, University of Washington"
+  - family-names: Russo
+    given-names: Troy
+    affiliation: "Departments of Statistics and Mathematics, University of Washington"
+  - family-names: Nair
+    given-names: Kaira
+    affiliation: "Applied and Computational Mathematical Sciences, University of Washington"
+repository-code: "https://github.com/SAFS-Varanasi-Internship/mindthegap-talks"
+url: "https://github.com/SAFS-Varanasi-Internship/mindthegap-talks"
+license: CC0-1.0
+keywords:
+  - ocean color
+  - gap filling
+  - deep learning
+  - U-Net
+  - cloud-native data
+preferred-citation:
+  type: conference-paper
+  title: "Scalable deep learning for satellite ocean-color gap filling: From cloud-hosted training data to model deployment to gap-filled outputs"
+  authors: *authors
+  year: 2027
+  month: 1
+  conference:
+    name: "107th American Meteorological Society Annual Meeting"
+    city: Denver
+    region: Colorado
+    country: US
+    date-start: "2027-01-10"
+    date-end: "2027-01-14"
+  url: "https://ams.confex.com/ams/107ANNUAL/meetingapp.cgi/Paper/497283"
+  notes: "Accepted conference presentation"
