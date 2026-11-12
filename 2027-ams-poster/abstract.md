@@ -1,4 +1,4 @@
-<!-- Event: AMS 107th Annual Meeting, Denver, CO. Poster, Wednesday, January 13, 2027.
+<!-- Event: AMS 107th Annual Meeting, Denver, CO. Poster, Wednesday, January 13, 2027, 3:00-4:30 PM, Hall A (Colorado Convention Center).
      Program page: https://ams.confex.com/ams/107ANNUAL/meetingapp.cgi/Paper/497283
      The same abstract is used for the eScience talk (../2027-escience/abstract.md). -->
 
